@@ -38,7 +38,7 @@ module.exports = (sequelize, dataTypes) => {
 
     const config = {
         tableName : "movies",
-        timestamps : true, //si la tabla marcas de tiempo no es necesario esta configuración,
+        timestamps : false, //si la tabla marcas de tiempo no es necesario esta configuración,
         underscored : true
     }
 
